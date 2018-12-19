@@ -20,19 +20,22 @@ export default {
       },
       swiperList: [{
         id: '0001',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1809/9e/8bca9a1d513cd802.jpg'
+        imgUrl: 'https://img1.qunarzz.com/qs/1812/6a/127f75ee20662b02.jpg'
       }, {
         id: '0002',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1809/9e/8bca9a1d513cd802.jpg'
+        imgUrl: 'https://img1.qunarzz.com/qs/1812/5d/4b3df3d79c6e2c02.jpg'
       }, {
         id: '0003',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1809/9e/8bca9a1d513cd802.jpg'
+        imgUrl: 'https://img1.qunarzz.com/qs/1812/80/ea6d36f07a3d2202.jpg'
       }, {
         id: '0004',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1809/9e/8bca9a1d513cd802.jpg'
+        imgUrl: 'https://img1.qunarzz.com/qs/1808/f1/5237b90429129102.jpg'
       }, {
         id: '0005',
-        imgUrl: 'https://imgs.qunarzz.com/piao/fusion/1809/9e/8bca9a1d513cd802.jpg'
+        imgUrl: 'https://img1.qunarzz.com/qs/1811/25/9639ae52091e9102.jpg'
+      }, {
+        id: '0006',
+        imgUrl: 'https://img1.qunarzz.com/qs/1812/b3/fbe481244a258802.jpg'
       }]
     }
   }
