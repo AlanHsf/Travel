@@ -11,8 +11,11 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.16.4",
     "fastclick": "^1.0.6",
+=======
+>>>>>>> aa7ce50cc826054aae08e1d20edba3eaaaea6342
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

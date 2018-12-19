@@ -8,4 +8,7 @@ module.exports = {
     "autoprefixer": {}
   }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> aa7ce50cc826054aae08e1d20edba3eaaaea6342
