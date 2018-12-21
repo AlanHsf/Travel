@@ -4,7 +4,7 @@
         <div class="iconfont back-icon">&#xe624;</div>
     </div>
     <div class="header-input">
-        <span class="iconfont">&#xe632;;</span>
+        <span class="iconfont">&#xe632;</span>
         输入城市/景点/游玩主题
         </div>
     <div class="header-right">
