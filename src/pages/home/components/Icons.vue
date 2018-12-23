@@ -48,7 +48,7 @@ export default {
       }, {
         id: '0007',
         imgUrl: 'https://i01picsos.sogoucdn.com/e00010009fb5aa80',
-        desc: '周末放松'
+        desc: '周末放松周末放松周末放松周末放松周末放松'
       }, {
         id: '0008',
         imgUrl: 'https://p.pstatp.com/weili/bl/132619227104280630.jpg',
@@ -79,10 +79,11 @@ export default {
 <style lang="stylus"  scoped>
 @import '~styles/varibles.style'
 @import '~styles/mixins.style'
-  .icons
-    overflow: hidden
+  .icons >>> .swiper-container
     height: 0
     padding-bottom: 50%
+  .icons
+    margin-top: .1rem
     .icon
       position: relative
       overflow hidden
