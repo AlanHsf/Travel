@@ -2,7 +2,7 @@
   <div>
     <div class="recommend-title">热销推荐</div>
     <ul>
-      <li class="item border-bottom" v-for="item of recommendList" :key="item.id">
+      <li class="item border-bottom" v-for="item of list" :key="item.id">
         <img class="item-img" :src="item.imgUrl"/>
         <div class="item-info">
           <p class="item-title">{{item.title}}</p>
@@ -17,25 +17,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        imgUrl: 'https://imgs.qunarzz.com/p/p48/201302/28/bc44faa497db0dcf93835fbb.jpg_256x160_0ba13461.jpg',
-        title: '南昌到泰国五天自由行',
-        desc: '含往返飞机票(含税)+4晚住宿'
-      }, {
-        id: '0002',
-        imgUrl: 'https://imgs.qunarzz.com/p/p48/201302/28/bc44faa497db0dcf93835fbb.jpg_256x160_0ba13461.jpg',
-        title: '南昌到泰国五天自由行',
-        desc: '含往返飞机票(含税)+4晚住宿'
-      }, {
-        id: '0003',
-        imgUrl: 'https://imgs.qunarzz.com/p/p48/201302/28/bc44faa497db0dcf93835fbb.jpg_256x160_0ba13461.jpg',
-        title: '南昌到泰国五天自由行',
-        desc: '含往返飞机票(含税)+4晚住宿'
-      }]
-    }
+  props: {
+    list: Array
   }
 }
 </script>
