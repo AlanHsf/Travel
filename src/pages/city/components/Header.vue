@@ -5,7 +5,7 @@
     <div class="iconfont header-back">&#xe624;</div>
     </router-link>
   </div>
-  </template>
+</template>
 
 <script>
 export default {
