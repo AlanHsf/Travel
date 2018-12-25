@@ -17,43 +17,45 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 export default {
   name: 'HomeHeader',
-  props: {
-    city: String
+  computed: {
+    ...mapState(['city'])
   }
 }
 </script>
 
 <style lang="stylus" scoped >
 @import '~styles/varibles.style'
- .header
-    display : flex
-    line-height : $headerHeight
-    background : $bgColor
-    color : #fff
-    .header-left
-        width : .64rem
-        float : left
-        .back-icon
-            text-align : centen
-            font-size : .4rem
-    .header-input
-        flex :1
-        height : .64rem
-        line-height : .64rem
-        margin-top : .12rem
-        margin-left : .2rem
-        padding-left : .2rem
-        background : #fff
-        border-radius : .1rem
-        color #ccc
-    .header-right
-        width :1.24rem
-        float: right
-        text-align: center
-        color: #fff
-        .arroe-icon
-            margin-left : -.04rem
-            font-size : .24rem
+.header
+  display : flex
+  line-height : $headerHeight
+  background : $bgColor
+  color : #fff
+  .header-left
+    width : .64rem
+    float : left
+    .back-icon
+      text-align : centen
+      font-size : .4rem
+  .header-input
+    flex :1
+    height : .64rem
+    line-height : .64rem
+    margin-top : .12rem
+    margin-left : .2rem
+    padding-left : .2rem
+    background : #fff
+    border-radius : .1rem
+    color #ccc
+  .header-right
+    min-width :1.04rem
+    padding: 0 .1rem
+    float: right
+    text-align: center
+    color: #fff
+    .arroe-icon
+      margin-left : -.04rem
+      font-size : .24rem
 </style>
