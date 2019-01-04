@@ -31,12 +31,12 @@ export default{
     position: relative
     width: .36rem
     height: .36rem
-    top: .1rem
-    left: .2rem
+    top: .06rem
+    left: .06rem
     background: url(http://s.qunarzz.com/piao/image/touch/sight/detail.png)
     0 -.45rem no-repeat
     margin-right: .1rem
-    background-size: .4rem .3rem
+    background-size: .1rem .1rem
   .item-title
     line-height: .8rem
     font-size: .32rem
